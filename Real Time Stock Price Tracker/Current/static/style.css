@@ -1,0 +1,30 @@
+#tickers-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stock-box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+}
+
+.red-flash {
+    transition: background-color 1s;
+    background-color: #ffcccc !important; /* light red */
+}
+
+.green-flash {
+    transition: background-color 1s;
+    background-color: #ccffcc !important; /* light green */
+}
+
+.gray-flash {
+    transition: background-color 1s;
+    background-color: #ccc !important; /* light gray */
+}
+
+/* Rest of your CSS styles
