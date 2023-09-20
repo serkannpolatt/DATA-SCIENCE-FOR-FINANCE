@@ -52,6 +52,10 @@ Bu GitHub deposu, finansal analiz ve veri bilimi konularında bazı örnek uygul
 
 Bu proje, geliştirilmeye açık ve katkılara açıktır. Eğer uygulamalara yeni fikirler eklemek veya mevcutları geliştirmek isterseniz lütfen katkıda bulunun. Ayrıca, her türlü geri bildirim ve sorularınızı issues sekmesinden paylaşabilirsiniz.
 
+![699e4762225981 5a89af14d87a9](https://github.com/serkannpolatt/DATA-SCIENCE-FOR-FINANCE/assets/92849974/00a3e488-249f-4126-9997-16554e87daf6)
+
+
+
 Bu proje, finansal analiz ve veri bilimi konularına ilgi duyanlar için öğrenme ve uygulama fırsatları sunmayı hedeflemektedir. Umarım beğenir ve faydalı bulursunuz!
 
 Yazar: Serkan Polat
