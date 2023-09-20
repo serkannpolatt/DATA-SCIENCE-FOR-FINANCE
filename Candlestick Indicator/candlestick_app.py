@@ -6,7 +6,7 @@ from bokeh.plotting import figure, column
 
 import talib
 
-st.set_page_config(layout="wide", page_title="Candlestick App with Technical Indicators")
+st.set_page_config(layout="wide", page_title="Candlestick App with Technical Indicators / Teknik Göstergelerle Donatılmış Mum Grafiği Uygulaması")
 
 @st.cache_data
 def load_dataset():
@@ -59,9 +59,9 @@ def create_chart(df, close_line=False, include_vol=False, indicators=[]):
 
 talib_indicators = ["MA", "EMA", "SMA", "WMA", "RSI", "MOM", "DEMA", "TEMA"]
 ## Dashboard
-st.title(":green[Candle]:red[stick] Pattern Technical Analysis")
+st.title(":green[Candle]:red[stick] Pattern Technical Analysis / Desen Teknik Analiz")
 
-st.sidebar.markdown("#### Date Range Selection")
+st.sidebar.markdown("#### Date Range Selection / Tarih Aralığı Seçimi")
 
 col1, col2 = st.sidebar.columns(2, gap="medium")
 with col1:
