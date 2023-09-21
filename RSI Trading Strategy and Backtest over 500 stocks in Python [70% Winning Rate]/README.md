@@ -61,7 +61,7 @@ cd rsi ticaret stratejisi
 
 3. **Komut Dosyasını Çalıştırın:** Tercih ettiğiniz kod düzenleyiciyi kullanarak rsi_trading.py Python betiğini açın. RSI ticaret stratejisini yürütmek ve sonuçları görselleştirmek için betiği çalıştırın:
 
-piton rsi_trading.py
+		python rsi_trading.py
 
 
 ### Kod Açıklama
