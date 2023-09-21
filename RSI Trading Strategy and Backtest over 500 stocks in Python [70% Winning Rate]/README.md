@@ -43,7 +43,7 @@ This project provides a hands-on example of implementing a basic RSI trading str
 ## Türkçe
 ## Python kullanarak RSI Ticaret Stratejisi
 
-### Giriiş
+### Giriş
 
 Bu proje, Python kullanarak bir Göreceli Güç Endeksi (RSI) ticaret stratejisi uygular. RSI, tacirlerin bir hisse senedi fiyatındaki potansiyel aşırı alım veya aşırı satım koşullarını belirlemesine yardımcı olan popüler bir teknik göstergedir. Strateji, S&P 500 endeksinden bir hisse senedi listesi için RSI değerlerinin hesaplanmasını ve bu RSI değerlerine göre alım satım kararlarının verilmesini içerir.
 
