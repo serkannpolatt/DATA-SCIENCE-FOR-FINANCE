@@ -52,7 +52,7 @@ Bu proje, kullanıcıların çeşitli hisse senetlerinin mevcut fiyatını ve y�
 
 ### Kullanılan Teknolojiler
 - **Ön Uç:** HTML, CSS, JavaScript (jQuery)
-- **Arka uç:** Python (Şişe)
+- **Arka uç:** Python (Flask)
 - **Veri Kaynağı:** Yahoo Finance (yfinance kitaplığı kullanılarak)
 
 ### Kurulum Talimatları
