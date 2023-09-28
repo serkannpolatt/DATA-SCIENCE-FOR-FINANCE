@@ -7,7 +7,7 @@ This project is a GitHub repository with some Data Science applications for fina
 
 This GitHub repository contains some sample applications in financial analysis and data science. The aim is to perform various analyzes on financial data using Python programming language and to obtain meaningful information by visualizing these analyzes. The project includes applications under the following main headings:
 
-**one. Stock Price Analysis:** Performing time series analysis on stock prices. Plotting data, calculating returns and performing fundamental analysis.
+**1. Stock Price Analysis:** Performing time series analysis on stock prices. Plotting data, calculating returns and performing fundamental analysis.
 
 **2. Time Series Forecasting:** Build forecasting models on financial time series. Making price predictions with methods such as ARIMA, LSTM.
 
