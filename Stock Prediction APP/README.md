@@ -17,9 +17,9 @@ To run this app locally, you will need to have Python and Streamlit installed. Y
 
 Next, you can run the app using the following command:
 
-		streamlit run app.py
+		streamlit run main.py
 
-Make sure to replace app.py with the filename of the script containing the code above.
+Make sure to replace main.py with the filename of the script containing the code above.
 
 ### Code Overview
 
@@ -63,13 +63,14 @@ Bu, ARIMA (Otomatik Regresif Entegre Hareketli Ortalama) modelini kullanarak his
 
 Bu uygulamayı yerel olarak çalıştırmak için Python ve Streamlit'in kurulu olması gerekir. Aşağıdaki komutu kullanarak gerekli bağımlılıkları kurabilirsiniz:
 
-pip kurulumu akıcı pandalar numpy yfinance statsmodels matplotlib
+		pip install streamlit pandas numpy yfinance statsmodels matplotlib
+
 
 Ardından, aşağıdaki komutu kullanarak uygulamayı çalıştırabilirsiniz:
 
-streamlit run app.py
+		streamlit run mainTR.py
 
-app.py'yi yukarıdaki kodu içeren betiğin dosya adıyla değiştirdiğinizden emin olun.
+mainTR.py'yi yukarıdaki kodu içeren betiğin dosya adıyla değiştirdiğinizden emin olun.
 
 ### Koda Genel Bakış
 
