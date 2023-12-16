@@ -88,7 +88,8 @@ Bu, Streamlit web uygulamasını başlatacak ve varsayılan web tarayıcınızda
 
 - Web uygulaması çizim için Bokeh kullanır. Bokeh 2.4.3 sürümünün kurulu olduğundan emin olun (hata mesajında ​​belirtildiği gibi). Aşağıdakileri çalıştırarak Bokeh sürümünü düşürebilirsiniz:
 
-	pip install --force-reinstall --no-deps bokeh==2.4.3
+		pip install --force-reinstall --no-deps bokeh==2.4.3
+
 
 - Farklı bir hisse senedini analiz etmek için "AAPL.csv" dosyasını özelleştirin veya kendi stok veri CSV dosyanızla değiştirin.
 
