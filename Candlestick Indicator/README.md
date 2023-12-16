@@ -78,7 +78,7 @@ Bu Python betiği, özellikle borsa verileri olmak üzere finansal verileri anal
 
 **3. Çalıştır:** Komut dosyasını aşağıdaki komutu kullanarak yürütün:
 
-streamlit çalıştırma mum çubuğu_app.py
+	streamlit run candlestick_app.py
 
 Bu, Streamlit web uygulamasını başlatacak ve varsayılan web tarayıcınızda açacaktır.
 
@@ -88,7 +88,7 @@ Bu, Streamlit web uygulamasını başlatacak ve varsayılan web tarayıcınızda
 
 - Web uygulaması çizim için Bokeh kullanır. Bokeh 2.4.3 sürümünün kurulu olduğundan emin olun (hata mesajında ​​belirtildiği gibi). Aşağıdakileri çalıştırarak Bokeh sürümünü düşürebilirsiniz:
 
-pip kurulumu --force-reinstall --no-deps bokeh==2.4.3
+	pip install --force-reinstall --no-deps bokeh==2.4.3
 
 - Farklı bir hisse senedini analiz etmek için "AAPL.csv" dosyasını özelleştirin veya kendi stok veri CSV dosyanızla değiştirin.
 
