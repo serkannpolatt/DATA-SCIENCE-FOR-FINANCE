@@ -30,7 +30,7 @@ The Stock Tracker Web Application is a powerful tool for tracking and managing s
 
 The home page displays a list of all the stocks in the database. Users can apply filters to this list to view stocks that meet specific criteria. The available filters include:
 
--**forward_pe:** Filter by forward price-to-earnings (P/E) ratio.
+- **forward_pe:** Filter by forward price-to-earnings (P/E) ratio.
 - **dividend_yield:** Filter by dividend yield.
 - **ma50:** Filter by the 50-day moving average.
 - **ma200:** Filter by the 200-day moving average.
@@ -51,7 +51,7 @@ Next to each stock, users can find a button to add a note or save the stock for 
 
 - **FastAPI:** A modern, fast, web framework for building APIs with Python.
 - **SQLAlchemy:** A powerful and flexible Object-Relational Mapping (ORM) library for working with databases in Python.
-- **SQLite:**A lightweight, serverless, and self-contained SQL database engine used for data storage.
+- **SQLite:** A lightweight, serverless, and self-contained SQL database engine used for data storage.
 - **yfinance:** A popular Python library for fetching stock market data from Yahoo Finance.
 
 
@@ -87,7 +87,7 @@ Stock Tracker Web Uygulaması, stok verilerini izlemek ve yönetmek için güçl
 
 Ana sayfa, veritabanındaki tüm stokların bir listesini görüntüler. Kullanıcılar, belirli kriterleri karşılayan stokları görüntülemek için bu listeye filtre uygulayabilir. Mevcut filtreler şunları içerir:
 
--**forward_pe:** Vadeli fiyat-kazanç (F/K) oranına göre filtreleyin.
+- **forward_pe:** Vadeli fiyat-kazanç (F/K) oranına göre filtreleyin.
 - **temettü_verimi:** Temettü verimine göre filtreleyin.
 - **ma50:** 50 günlük hareketli ortalamaya göre filtreleyin.
 - **ma200:** 200 günlük hareketli ortalamaya göre filtreleyin.
