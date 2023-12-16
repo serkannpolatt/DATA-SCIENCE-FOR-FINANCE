@@ -1,7 +1,7 @@
 ## English
 ## Portfolio Optimization
 
-This README file describes Python's script for portfolio expansion and analysis using financial data. Using the Yahoo Finance API, the script retrieves posted stock prices, calculates portfolio statistics, and optimizes the portfolio for maximum Sharpe ratio.
+Describes python's script for portfolio expansion and analysis using financial data. Using the Yahoo Finance API, the script retrieves posted stock prices, calculates portfolio statistics, and optimizes the portfolio for maximum Sharpe ratio.
 
 ### Purpose
 
@@ -71,7 +71,7 @@ By using the project, investors can make their financial decisions more consciou
 ## Türkçe
 ## Portföy Optimizasyonu 
 
-Bu README dosyası, finansal verileri kullanarak portföy optimizasyonu ve analizi için Python betiğini anlatmaktadır. Betik, Yahoo Finance API'sini kullanarak tarihli hisse senedi fiyatlarını alır, portföy istatistiklerini hesaplar ve portföyü maksimum Sharpe oranı için optimize eder.
+Finansal verileri kullanarak portföy optimizasyonu ve analizi için Python betiğini anlatmaktadır. Betik, Yahoo Finance API'sini kullanarak tarihli hisse senedi fiyatlarını alır, portföy istatistiklerini hesaplar ve portföyü maksimum Sharpe oranı için optimize eder.
 
 ### Amacı
 
