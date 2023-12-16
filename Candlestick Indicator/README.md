@@ -53,7 +53,7 @@ This application is intended for educational and informational purposes only. It
 
 
 ## Türkçe
-## Teknik Göstergeli Şamdan Uygulaması
+## Teknik Göstergelerle Mum Grafiği Uygulaması
 
 Bu Python betiği, özellikle borsa verileri olmak üzere finansal verileri analiz etmek için tasarlanmış bir Streamlit web uygulamasıdır. Belirtilen tarih aralığı için çeşitli teknik göstergelerle etkileşimli mum grafikleri sağlar.
 
