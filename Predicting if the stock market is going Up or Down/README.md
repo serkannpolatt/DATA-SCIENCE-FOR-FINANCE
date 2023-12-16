@@ -67,7 +67,7 @@ Kodu çalıştırmadan önce, aşağıdaki Python kitaplıklarının kurulu oldu
 
 Bu kütüphaneleri aşağıdaki komutu kullanarak kurabilirsiniz:
 
-pip kurulumu pandalar yfinans istatistik modelleri numpy scikit-learn
+	pip install pandas yfinance statsmodels numpy scikit-learn
 
 ### Kullanım
 
@@ -79,7 +79,7 @@ pip kurulumu pandalar yfinans istatistik modelleri numpy scikit-learn
 
 4. Komut dosyasını aşağıdaki komutu kullanarak çalıştırın:
 
-piton stock_market_prediction.py
+		python stock_market_prediction.py
 
 ### Tanım
 
