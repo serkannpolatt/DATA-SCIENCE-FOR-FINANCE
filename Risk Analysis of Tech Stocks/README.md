@@ -49,7 +49,7 @@ Bu komut dosyası, seçilen hisse senetlerinin (AAPL, GOOG, MSFT, AMZN, NFLX) ka
 - Gerekli Python kütüphaneleri: pandas, numpy, matplotlib, seaborn, yfinance
 
 ### Kurulum
-	pip kurulumu -r gereksinimleri.txt
+	pip install -r requirements.txt
 
 ### Kullanım
 
