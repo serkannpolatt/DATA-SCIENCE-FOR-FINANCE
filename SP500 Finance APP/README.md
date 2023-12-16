@@ -14,16 +14,17 @@ The S&P 500 App is a web application that retrieves the list of S&P 500 companie
 
 1. Run the app:
 
-	streamlit run app.py
-2. Access the app in your web browser at http://localhost:8501.
+		streamlit run sp500_app.py
 
-3. Use the sidebar to select sectors and view the companies within those sectors.
+3. Access the app in your web browser at http://localhost:8501.
 
-4. Download the data by clicking on the "Download CSV File" link.
+4. Use the sidebar to select sectors and view the companies within those sectors.
 
-5. Adjust the slider to select the number of companies for which you want to visualize the closing prices.
+5. Download the data by clicking on the "Download CSV File" link.
 
-6. Click on the "Show Plots" button to view the interactive plots.
+6. Adjust the slider to select the number of companies for which you want to visualize the closing prices.
+
+7. Click on the "Show Plots" button to view the interactive plots.
 
 ### Data Source
 The data source for the S&P 500 companies is Wikipedia.
@@ -48,16 +49,17 @@ S&P 500 Uygulaması, S&P 500 şirketlerinin listesini Wikipedia'dan alan ve yıl
 
 1. Uygulamayı çalıştırın:
 
-streamlit run app.py
-2. Uygulamaya web tarayıcınızdan http://localhost:8501 adresinden erişin.
+		streamlit run sp500_appTR.py
 
-3. Sektörleri seçmek ve bu sektörlerdeki şirketleri görüntülemek için kenar çubuğunu kullanın.
+3. Uygulamaya web tarayıcınızdan http://localhost:8501 adresinden erişin.
 
-4. "CSV Dosyasını İndir" bağlantısına tıklayarak verileri indirin.
+4. Sektörleri seçmek ve bu sektörlerdeki şirketleri görüntülemek için kenar çubuğunu kullanın.
 
-5. Kapanış fiyatlarını görselleştirmek istediğiniz şirket sayısını seçmek için kaydırıcıyı ayarlayın.
+5. "CSV Dosyasını İndir" bağlantısına tıklayarak verileri indirin.
 
-6. İnteraktif grafikleri görüntülemek için "Grafikleri Göster" düğmesine tıklayın.
+6. Kapanış fiyatlarını görselleştirmek istediğiniz şirket sayısını seçmek için kaydırıcıyı ayarlayın.
+
+7. İnteraktif grafikleri görüntülemek için "Grafikleri Göster" düğmesine tıklayın.
 
 ### Veri kaynağı
 S&P 500 şirketleri için veri kaynağı Wikipedia'dır.
