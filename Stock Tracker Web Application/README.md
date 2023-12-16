@@ -51,7 +51,7 @@ Next to each stock, users can find a button to add a note or save the stock for 
 
 - **FastAPI:** A modern, fast, web framework for building APIs with Python.
 - **SQLAlchemy:** A powerful and flexible Object-Relational Mapping (ORM) library for working with databases in Python.
-- **SQLite: **A lightweight, serverless, and self-contained SQL database engine used for data storage.
+- **SQLite:**A lightweight, serverless, and self-contained SQL database engine used for data storage.
 - **yfinance:** A popular Python library for fetching stock market data from Yahoo Finance.
 
 
@@ -108,5 +108,5 @@ Her hisse senedinin yanında, kullanıcılar not eklemek veya hisse senedini dah
 
 - **FastAPI:** Python ile API'ler oluşturmak için modern, hızlı bir web çerçevesi.
 - **SQLAlchemy:** Python'da veritabanlarıyla çalışmak için güçlü ve esnek bir Nesne-İlişkisel Eşleme (ORM) kitaplığı.
-- **SQLite: **Veri depolama için kullanılan hafif, sunucusuz ve bağımsız bir SQL veritabanı motoru.
+- **SQLite:** Veri depolama için kullanılan hafif, sunucusuz ve bağımsız bir SQL veritabanı motoru.
 - **yfinance:** Yahoo Finance'ten borsa verilerini almak için kullanılan popüler bir Python kitaplığı.
