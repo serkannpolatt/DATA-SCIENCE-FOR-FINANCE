@@ -18,7 +18,7 @@ This Python script is a Streamlit web application designed for analyzing financi
 
 **1. Installation:** Ensure you have Python installed along with the required packages. If not, you can install them using pip as follows:
 
-		pip install streamlit pandas bokeh talib
+	pip install -r requirements.txt
 
 **2. Data:** Prepare your historical stock market data in CSV format. The script assumes that you have a CSV file named "AAPL.csv" containing data for Apple Inc. (AAPL). Replace this file with your own stock data CSV file.
 
@@ -72,7 +72,7 @@ Bu Python betiği, özellikle borsa verileri olmak üzere finansal verileri anal
 
 **1. Kurulum:** Gerekli paketlerle birlikte Python'un kurulu olduğundan emin olun. Değilse, bunları aşağıdaki gibi pip kullanarak kurabilirsiniz:
 
-pip kurulum aerodinamik pandalar bokeh talib
+	pip install -r requirements.txt
 
 **2. Veri:** Geçmiş borsa verilerinizi CSV formatında hazırlayın. Komut dosyası, Apple Inc. (AAPL) verilerini içeren "AAPL.csv" adlı bir CSV dosyanız olduğunu varsayar. Bu dosyayı kendi stok veri CSV dosyanızla değiştirin.
 
