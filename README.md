@@ -59,4 +59,3 @@ Yazar: Serkan Polat
 
 ![cfcf8c86a569d30b5dae709551634a5b](https://github.com/serkannpolatt/DATA-SCIENCE-FOR-FINANCE/assets/92849974/a54d4fbf-986e-4517-8769-f0ca08814a8c)
 
-![cfcf8c86a569d30b5dae709551634a5b](https://github.com/serkannpolatt/DATA-SCIENCE-FOR-FINANCE/assets/92849974/47308b58-35d3-4598-9d17-4fa56f61242c)
