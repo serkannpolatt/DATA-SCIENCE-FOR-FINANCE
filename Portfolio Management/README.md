@@ -1,58 +1,3 @@
-## Türkçe
-## Portföy Optimizasyonu
-
-Bu Python betiği, riski yönetirken getirileri en üst düzeye çıkaran bir yatırım portföyü oluşturmak için finansta yaygın olarak kullanılan bir teknik olan portföy optimizasyonu için tasarlanmıştır. Senaryo, S&P 500 endeksinin yanı sıra Google (GOOG), Apple (AAPL), Facebook (META), Amazon (AMZN) ve Microsoft (MSFT) dahil olmak üzere çeşitli hisse senetlerine odaklanıyor. Optimize edilmiş bir portföy oluşturmak için karar verme sürecine yardımcı olmak amacıyla finansal verileri, istatistiksel analizleri ve görselleştirme tekniklerini kullanır.
-
-### Amaç
-
-**1. Veri Alma**
-
-Komut dosyası, Yahoo Finance'ten belirtilen varlıklara ilişkin geçmiş hisse senedi fiyatı verilerini almak için yfinance kitaplığını kullanır. Veriler geçmiş performansı analiz etmek ve bilinçli yatırım kararları vermek için çok önemlidir.
-
-**2. Veri analizi**
-
-Getirilen stok verileri, pandas kütüphanesi kullanılarak tek bir veri kümesinde birleştirilir. Komut dosyası daha sonra veri kümesinin yapısını analiz eder ve kutu grafikleri ve dağılım matrisleri aracılığıyla hisse senedi fiyatlarını görselleştirir. Portföy optimizasyonu için her varlığın geçmiş performansını anlamak önemlidir.
-
-**3. Risk ve Getiri Analizi**
-
-Komut dosyası, her hisse senedi için günlük getirileri, volatiliteyi ve Sharpe oranlarını hesaplar. Sharpe oranı, risk ve getiri arasındaki optimum dengeyi belirlemeye yardımcı olan önemli bir ölçümdür. Ek olarak, çeşitlendirilmiş bir portföy sağlamak için farklı hisse senetleri arasındaki korelasyonlar analiz edilir.
-
-**4. Portföy Optimizasyonu**
-
-Komut dosyası, matematiksel optimizasyon tekniklerini kullanarak Sharpe oranını maksimuma çıkaran varlık ağırlıklarının kombinasyonunu bulur. Optimize edilmiş portföy, modern portföy teorisine uygun olarak mümkün olan en yüksek riske göre ayarlanmış getiriyi elde etmeyi amaçlamaktadır.
-
-**5. Verimli Sınır**
-
-Etkin sınır, portföy optimizasyonunda çok önemli bir kavramdır. Senaryo, belirli bir risk seviyesi için en yüksek beklenen getiriyi veya belirli bir beklenen getiri seviyesi için en düşük riski sunan optimal portföy setini sergileyerek etkin sınırı çizer.
-
-### Kullanım
-**1. Bağımlılıkları Yükle:**
-
-		pip install -r gereksinimleri.txt
-
-**2. Komut Dosyasını Çalıştırın:**
-- Betiği kopyalayıp bir Python ortamına veya Jupyter not defterine yapıştırın.
-- Mali verileri almak, analiz gerçekleştirmek ve görselleştirmeler oluşturmak için komut dosyasını çalıştırın.
-
-**3. Sonuçları Yorumla:**
-
-- Seçilen varlıkların geçmiş performansını, riskini ve getirisini anlamak için oluşturulan görselleştirmeleri ve analizleri inceleyin.
-- Risk-getiri değiş tokuşlarına dayalı olarak optimal portföyleri vurgulayan etkin sınır grafiğine dikkat edin.
-
-
-### Bağımlılıklar
-- **pandalar:** Veri işleme ve analiz kitaplığı.
-- **yfinance:** Yahoo Finance'den geçmiş hisse senedi fiyatı verilerini alın.
-- **yahoofinancials:** Yahoo Finance'den finansal verileri almak için ek kitaplık.
-- **matplotlib:** Görselleştirmeler oluşturmaya yönelik çizim kitaplığı.
-- **seaborn:** Matplotlib'e dayalı istatistiksel veri görselleştirmesi.
-- **scipy:** Matematiksel ve istatistiksel işlemler için bilimsel kütüphane.
-
-### Önemli Not
-- Yahoo Finance'den finansal verileri almak için çalışan bir internet bağlantısı olduğundan emin olun.
-- Finansal piyasalar dalgalanmalara tabidir ve geçmiş performans gelecekteki sonuçları öngörmeyebilir.
-- Bu komut dosyasını eğitim ve bilgilendirme amaçlı kullanın; Yatırım kararları için finans uzmanlarına danışın.
-
 ## English
 ## Portfolio Optimization
 
@@ -107,3 +52,58 @@ The efficient frontier is a crucial concept in portfolio optimization. The scrip
 - Ensure a working internet connection to fetch financial data from Yahoo Finance.
 - Financial markets are subject to volatility, and past performance may not predict future results.
 - Use this script for educational and informational purposes; consult financial professionals for investment decisions.
+
+## Türkçe
+## Portföy Optimizasyonu
+
+Bu Python betiği, riski yönetirken getirileri en üst düzeye çıkaran bir yatırım portföyü oluşturmak için finansta yaygın olarak kullanılan bir teknik olan portföy optimizasyonu için tasarlanmıştır. Senaryo, S&P 500 endeksinin yanı sıra Google (GOOG), Apple (AAPL), Facebook (META), Amazon (AMZN) ve Microsoft (MSFT) dahil olmak üzere çeşitli hisse senetlerine odaklanıyor. Optimize edilmiş bir portföy oluşturmak için karar verme sürecine yardımcı olmak amacıyla finansal verileri, istatistiksel analizleri ve görselleştirme tekniklerini kullanır.
+
+### Amaç
+
+**1. Veri Alma**
+
+Komut dosyası, Yahoo Finance'ten belirtilen varlıklara ilişkin geçmiş hisse senedi fiyatı verilerini almak için yfinance kitaplığını kullanır. Veriler geçmiş performansı analiz etmek ve bilinçli yatırım kararları vermek için çok önemlidir.
+
+**2. Veri analizi**
+
+Getirilen stok verileri, pandas kütüphanesi kullanılarak tek bir veri kümesinde birleştirilir. Komut dosyası daha sonra veri kümesinin yapısını analiz eder ve kutu grafikleri ve dağılım matrisleri aracılığıyla hisse senedi fiyatlarını görselleştirir. Portföy optimizasyonu için her varlığın geçmiş performansını anlamak önemlidir.
+
+**3. Risk ve Getiri Analizi**
+
+Komut dosyası, her hisse senedi için günlük getirileri, volatiliteyi ve Sharpe oranlarını hesaplar. Sharpe oranı, risk ve getiri arasındaki optimum dengeyi belirlemeye yardımcı olan önemli bir ölçümdür. Ek olarak, çeşitlendirilmiş bir portföy sağlamak için farklı hisse senetleri arasındaki korelasyonlar analiz edilir.
+
+**4. Portföy Optimizasyonu**
+
+Komut dosyası, matematiksel optimizasyon tekniklerini kullanarak Sharpe oranını maksimuma çıkaran varlık ağırlıklarının kombinasyonunu bulur. Optimize edilmiş portföy, modern portföy teorisine uygun olarak mümkün olan en yüksek riske göre ayarlanmış getiriyi elde etmeyi amaçlamaktadır.
+
+**5. Verimli Sınır**
+
+Etkin sınır, portföy optimizasyonunda çok önemli bir kavramdır. Senaryo, belirli bir risk seviyesi için en yüksek beklenen getiriyi veya belirli bir beklenen getiri seviyesi için en düşük riski sunan optimal portföy setini sergileyerek etkin sınırı çizer.
+
+### Kullanım
+**1. Bağımlılıkları Yükle:**
+
+		pip install -r gereksinimleri.txt
+
+**2. Komut Dosyasını Çalıştırın:**
+- Betiği kopyalayıp bir Python ortamına veya Jupyter not defterine yapıştırın.
+- Mali verileri almak, analiz gerçekleştirmek ve görselleştirmeler oluşturmak için komut dosyasını çalıştırın.
+
+**3. Sonuçları Yorumla:**
+
+- Seçilen varlıkların geçmiş performansını, riskini ve getirisini anlamak için oluşturulan görselleştirmeleri ve analizleri inceleyin.
+- Risk-getiri değiş tokuşlarına dayalı olarak optimal portföyleri vurgulayan etkin sınır grafiğine dikkat edin.
+
+
+### Bağımlılıklar
+- **pandalar:** Veri işleme ve analiz kitaplığı.
+- **yfinance:** Yahoo Finance'den geçmiş hisse senedi fiyatı verilerini alın.
+- **yahoofinancials:** Yahoo Finance'den finansal verileri almak için ek kitaplık.
+- **matplotlib:** Görselleştirmeler oluşturmaya yönelik çizim kitaplığı.
+- **seaborn:** Matplotlib'e dayalı istatistiksel veri görselleştirmesi.
+- **scipy:** Matematiksel ve istatistiksel işlemler için bilimsel kütüphane.
+
+### Önemli Not
+- Yahoo Finance'den finansal verileri almak için çalışan bir internet bağlantısı olduğundan emin olun.
+- Finansal piyasalar dalgalanmalara tabidir ve geçmiş performans gelecekteki sonuçları öngörmeyebilir.
+- Bu komut dosyasını eğitim ve bilgilendirme amaçlı kullanın; Yatırım kararları için finans uzmanlarına danışın.
