@@ -52,12 +52,13 @@ Bu projeye başlamak için şu adımları izleyin:
 
 1. **Gerekli Paketleri Kurun:** Gerekli paketlerin kurulu olduğundan emin olun. Aşağıdaki komutu kullanarak bunları kurabilirsiniz:
 
-pip kurulumu pandalar yfinance matplotlib
+		pip install pandas yfinance matplotlib
 
 2. **Havuzu Kopyalayın:** Aşağıdaki komutu kullanarak bu depoyu yerel makinenize kopyalayın:
 
-git klonu https://github.com/yourusername/rsi-trading-strategy.git
-cd rsi ticaret stratejisi
+		git clone https://github.com/yourusername/rsi-trading-strategy.git
+		cd rsi-trading-strategy
+
 
 3. **Komut Dosyasını Çalıştırın:** Tercih ettiğiniz kod düzenleyiciyi kullanarak rsi_trading.py Python betiğini açın. RSI ticaret stratejisini yürütmek ve sonuçları görselleştirmek için betiği çalıştırın:
 
