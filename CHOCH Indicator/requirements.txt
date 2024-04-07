@@ -1,0 +1,5 @@
+pandas
+pandas_ta
+numpy
+plotly
+scipy
