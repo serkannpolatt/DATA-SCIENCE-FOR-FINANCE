@@ -1,0 +1,6 @@
+pandas
+pandas-ta
+plotly
+seaborn
+matplotlib
+backtesting
