@@ -4,5 +4,5 @@ matplotlib==3.4.3
 seaborn==0.11.2
 yfinance==0.1.64
 pandas_datareader==0.11.0
-scikit-learn==1.0.1
+scikit-learn==1.5.0
 tensorflow==2.11.1
