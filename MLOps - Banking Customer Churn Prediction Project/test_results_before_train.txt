@@ -1,0 +1,13 @@
+test_data_encoding (__main__.TestBeforeTrain)
+Test to verify if the data encoding with LabelEncoder is applied correctly. ... ok
+test_f05_threshold (__main__.TestBeforeTrain)
+Test the calculation of the optimal threshold based on the f0.5 score. ... ok
+test_grid_search (__main__.TestBeforeTrain)
+Test the performance of GridSearchCV for model hyperparameter tuning. ... ok
+test_model_saving_loading (__main__.TestBeforeTrain)
+Test the saving and loading of the trained model. ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 4.423s
+
+OK
