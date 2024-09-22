@@ -1,0 +1,6 @@
+Training variance explained: 100.0%
+Test variance explained: 78.2%
+Best classifier: Decision Tree
+Best scaler: Standard Scaler
+Best params: {'classifier__max_depth': 40}
+Best recall: 0.0001
