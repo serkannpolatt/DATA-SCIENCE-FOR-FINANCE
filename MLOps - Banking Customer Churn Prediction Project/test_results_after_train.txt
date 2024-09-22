@@ -1,0 +1,14 @@
+ERROR
+
+======================================================================
+ERROR: setUpClass (__main__.TestAfterTrain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Serkan POLAT\Desktop\MLOps_GithubActions-main\src\unittest_after_train.py", line 15, in setUpClass
+    raise FileNotFoundError(f"Model file '{cls.model_path}' was not found.")
+FileNotFoundError: Model file 'models/model.pkl' was not found.
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.000s
+
+FAILED (errors=1)
