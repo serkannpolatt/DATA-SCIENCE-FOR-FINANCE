@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mlops-model
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: mlops-model
+  template:
+    metadata:
+      labels:
+        app: mlops-model
+    spec:
+      containers:
+        - name: mlops-model
+          image: <DOCKER_HUB_USERNAME>/mlops-demo:latest 
+          ports:
+            - containerPort: 5000
+          env:
+            - name: FLASK_ENV
+              value: production
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mlops-model-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: mlops-model
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 5000
