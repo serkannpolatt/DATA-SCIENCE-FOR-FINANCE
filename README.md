@@ -283,11 +283,6 @@ Bu depoda, finansal analiz alanındaki çeşitli yönlere odaklanan aşağıdaki
 - **Kullanılan Teknikler:** Doğal Dil İşleme (NLP), kelime gömme.
 - **Uygulanan Modeller:** LSTM, Destek Vektör Makineleri (SVM).
 
----
-
-### Katkıda Bulunma
-
-Bu projeye katkıda bulunmak için lütfen mevcut sorunları kontrol edin veya yeni bir özellik önerin. Herhangi bir katkı, sorun çözme veya özellik geliştirme ile ilgili ise, lütfen konuyu açıklayan bir konu açın veya pull request yapın.
 
 ---
 
