@@ -1,61 +1,149 @@
 ## English
-## Finance Apps for Data Science
+## Data Science for Finance
 
-This project is a GitHub repository with some Data Science applications for financial analysis. Within the scope of the project, financial data analysis, visualization and estimation processes were carried out using Python. Below is a sample content of the README file containing information about the project:
+This repository contains a collection of data science applications focused on financial analysis. The aim is to analyze financial data, create predictive models, and extract actionable insights using Python. The project showcases various applications of machine learning and deep learning models tailored to financial datasets.
 
-### Overview
+---
 
-This GitHub repository contains some sample applications in financial analysis and data science. The aim is to perform various analyzes on financial data using Python programming language and to obtain meaningful information by visualizing these analyzes. The project includes applications under the following main headings:
+### Repository Purpose
 
-**1. Stock Price Analysis:** Performing time series analysis on stock prices. Plotting data, calculating returns and performing fundamental analysis.
+This repository aims to provide practical examples for using data science in financial contexts. The primary goals are:
 
-**2. Time Series Forecasting:** Build forecasting models on financial time series. Making price predictions with methods such as ARIMA, LSTM.
+- **Real-World Financial Applications:** Each project is designed around real-world financial problems, showcasing how data science can be leveraged to extract insights.
+- **Teaching Methodologies:** Each project demonstrates a structured approach to data science, from data collection to model deployment.
+- **Collaboration and Learning:** The repository encourages contributions from the community, offering a space for feedback and collaboration.
 
-**3. Portfolio Optimization:** Build a portfolio of different stocks and find optimal weights to maximize portfolio return.
+---
 
-**4. Risk Analysis:** Calculating and evaluating financial asset and portfolio risk. Beta coefficient and VaR calculations.
+### Project Structure
 
-**5. Technical Indicators and Strategies:** Creating trading strategies using technical analysis indicators (eg Bollinger Bands, RSI).
+#### 1. Problem Definition
+A clear financial problem or question is defined (e.g., "How can we predict stock price movements?"). Goals and outcomes are established, along with target stakeholders such as investors or analysts.
 
-**6. News Analysis and Impact Evaluation:** Analyzing and evaluating the impact of financial news on the markets.
+#### 2. Data Collection
+Data is gathered from various sources like financial APIs (Yahoo Finance, Alpha Vantage) or through web scraping (BeautifulSoup, Selenium). Examples include stock prices, market indices, or economic indicators.
+
+#### 3. Data Cleaning and Preprocessing
+Data is cleaned to ensure it's suitable for analysis. This includes handling missing values, normalizing variables, removing duplicates, and transforming categorical data.
+
+---
+
+### Applications in This Repository
+
+The repository contains the following projects, each focusing on different aspects of financial analysis:
+
+#### 1. Stock Price Analysis
+- **Objective:** Time series analysis of stock prices.
+- **Techniques Used:** Plotting historical prices, calculating returns, performing fundamental analysis.
+- **Models Applied:** ARIMA, Exponential Smoothing.
+
+#### 2. Time Series Forecasting
+- **Objective:** Predict future stock prices using time series forecasting models.
+- **Techniques Used:** Data splitting, feature engineering for time series.
+- **Models Applied:** ARIMA, LSTM (Long Short-Term Memory networks).
+
+#### 3. Portfolio Optimization
+- **Objective:** Optimize a portfolio to maximize returns and minimize risk.
+- **Techniques Used:** Modern portfolio theory, mean-variance optimization.
+- **Models Applied:** Efficient Frontier, Monte Carlo Simulation.
+
+#### 4. Risk Analysis
+- **Objective:** Measure and evaluate financial risks.
+- **Techniques Used:** Beta coefficient calculations, Value at Risk (VaR) analysis.
+- **Models Applied:** GARCH (Generalized Autoregressive Conditional Heteroskedasticity), VaR models.
+
+#### 5. Technical Indicators and Strategies
+- **Objective:** Build trading strategies using technical analysis.
+- **Techniques Used:** Applying technical indicators like Bollinger Bands, Relative Strength Index (RSI).
+- **Models Applied:** Rule-based trading algorithms, Reinforcement Learning for automated strategies.
+
+#### 6. News Analysis and Impact Evaluation
+- **Objective:** Assess the impact of financial news on market movements.
+- **Techniques Used:** Sentiment analysis, natural language processing (NLP).
+- **Models Applied:** VADER (Valence Aware Dictionary and sEntiment Reasoner), BERT (Bidirectional Encoder Representations from Transformers).
+
+---
 
 ### Contributions and Feedback
 
-This project is open to development and open to contributions. If you want to add new ideas to applications or improve existing ones, please contribute. You can also share all your feedback and questions from the issues tab.
+This project is open to contributions. If you have new ideas or improvements, feel free to open a pull request. Any feedback or questions can be shared via the issues section.
 
-This project aims to provide learning and practice opportunities for those interested in financial analysis and data science. I hope you like it and find it useful!
+---
 
-Author: Serkan Polat
+### Author
+Serkan Polat
 
 ## Türkçe
-## Veri Bilimi için Finans Uygulamaları 
+## Veri Bilimi için Finans
 
-Bu proje, finansal analiz için bazı Data Science uygulamalarını içeren bir GitHub deposudur. Proje kapsamında, Python kullanarak finansal veri analizi, görselleştirme ve tahminleme işlemleri gerçekleştirilmiştir. Aşağıda proje hakkında bilgi içeren README dosyasının örnek bir içeriği bulunmaktadır:
+Bu depo, finansal analiz üzerine odaklanan veri bilimi uygulamalarını içermektedir. Amaç, finansal verileri analiz etmek, tahmin modelleri oluşturmak ve Python kullanarak uygulanabilir içgörüler elde etmektir. Proje, finansal veri setlerine uygun makine öğrenimi ve derin öğrenme modellerinin çeşitli uygulamalarını içermektedir.
 
-### Genel Bakış
+---
 
-Bu GitHub deposu, finansal analiz ve veri bilimi konularında bazı örnek uygulamaları içermektedir. Amaç, Python programlama dili kullanarak finansal veriler üzerinde çeşitli analizler yapmak ve bu analizleri görselleştirerek anlamlı bilgiler elde etmektir. Projede aşağıdaki ana başlıklar altında uygulamalar yer almaktadır:
+### Reponun Amacı
 
-**1. Hisse Senedi Fiyat Analizi:** Hisse senedi fiyatları üzerinde zaman serisi analizi gerçekleştirme. Verilerin çizdirilmesi, getiri hesaplamaları ve temel analiz yapma.
+Bu depo, veri biliminin finansal alanlarda nasıl kullanılacağını gösteren pratik örnekler sunmaktadır. Başlıca amaçlar şunlardır:
 
-**2. Zaman Serisi Tahminleme:** Finansal zaman serileri üzerinde tahminleme modelleri oluşturma. ARIMA, LSTM gibi yöntemlerle fiyat tahminleri yapma.
+- **Gerçek Dünya Finansal Uygulamalar:** Her proje, finansal sorunlara yönelik veri bilimi çözümlerini gösterir ve içgörüler çıkarma sürecini sunar.
+- **Veri Bilimi Metodolojilerini Gösterme:** Projeler, veri toplama aşamasından model dağıtımına kadar veri bilimi sürecini kapsamlı şekilde ele alır.
+- **İşbirliği ve Öğrenmeyi Teşvik Etme:** Topluluğun katkıda bulunabileceği ve geri bildirim sağlayabileceği bir alan oluşturur.
 
-**3. Portföy Optimizasyonu:** Farklı hisse senetlerinin portföyünü oluşturma ve portföy getirisini maksimize edecek optimal ağırlıkları bulma.
+---
 
-**4. Risk Analizi:** Finansal varlık ve portföy riskini hesaplama ve değerlendirme. Beta katsayısı ve VaR hesaplamaları.
+### Proje Yapısı
 
-**5. Teknik Göstergeler ve Stratejiler:** Teknik analiz göstergeleri (örn. Bollinger Bantları, RSI) kullanarak ticaret stratejileri oluşturma.
+#### 1. Problem Tanımı
+Finansal bir sorun veya soru net bir şekilde tanımlanır (örneğin, "Hisse senedi fiyat hareketlerini nasıl tahmin edebiliriz?"). Hedefler ve beklenen sonuçlar belirlenir, paydaşlar tanımlanır.
 
-**6. Haber Analizi ve Etki Değerlendirme:** Finansal haberlerin piyasalar üzerindeki etkisini analiz etme ve değerlendirme.
+#### 2. Veri Toplama
+Veriler finansal API'ler (Yahoo Finance, Alpha Vantage) veya web kazıma (BeautifulSoup, Selenium) gibi çeşitli kaynaklardan toplanır. Örnekler arasında hisse senedi fiyatları, piyasa endeksleri ve ekonomik göstergeler yer alır.
+
+#### 3. Veri Temizleme ve Ön İşleme
+Veriler, analiz için uygun hale getirilir. Eksik veriler doldurulur, normalizasyon yapılır, tekrarlar kaldırılır ve kategorik veriler dönüştürülür.
+
+---
+
+### Bu Reponun Uygulamaları
+
+Depoda yer alan projeler, finansal analizle ilgili farklı konulara odaklanmaktadır:
+
+#### 1. Hisse Senedi Fiyat Analizi
+- **Amaç:** Hisse senedi fiyatları üzerinde zaman serisi analizi yapmak.
+- **Kullanılan Teknikler:** Tarihsel fiyatları çizdirme, getiri hesaplamaları, temel analiz.
+- **Kullanılan Modeller:** ARIMA, Üstel Düzeltme.
+
+#### 2. Zaman Serisi Tahminleme
+- **Amaç:** Zaman serisi tahminleme modelleri ile gelecekteki hisse senedi fiyatlarını tahmin etmek.
+- **Kullanılan Teknikler:** Veri ayırma, zaman serisi için özellik mühendisliği.
+- **Kullanılan Modeller:** ARIMA, LSTM (Uzun Kısa Süreli Bellek ağları).
+
+#### 3. Portföy Optimizasyonu
+- **Amaç:** Getiriyi maksimize edip riski minimize edecek optimal portföy ağırlıklarını bulmak.
+- **Kullanılan Teknikler:** Modern portföy teorisi, ortalama-varyans optimizasyonu.
+- **Kullanılan Modeller:** Etkin Sınır (Efficient Frontier), Monte Carlo Simülasyonu.
+
+#### 4. Risk Analizi
+- **Amaç:** Finansal risklerin ölçülmesi ve değerlendirilmesi.
+- **Kullanılan Teknikler:** Beta katsayısı hesaplamaları, Riske Maruz Değer (VaR) analizleri.
+- **Kullanılan Modeller:** GARCH (Genelleştirilmiş Otoregresif Koşullu Değişen Varyans), VaR modelleri.
+
+#### 5. Teknik Göstergeler ve Stratejiler
+- **Amaç:** Teknik analiz göstergeleri kullanarak ticaret stratejileri oluşturma.
+- **Kullanılan Teknikler:** Bollinger Bantları, Göreceli Güç Endeksi (RSI) gibi teknik göstergelerin uygulanması.
+- **Kullanılan Modeller:** Kural tabanlı ticaret algoritmaları, Otomatik stratejiler için Pekiştirmeli Öğrenme.
+
+#### 6. Haber Analizi ve Etki Değerlendirme
+- **Amaç:** Finansal haberlerin piyasa hareketlerine etkisini değerlendirmek.
+- **Kullanılan Teknikler:** Duygu analizi, doğal dil işleme (NLP).
+- **Kullanılan Modeller:** VADER (Duygu Analizi), BERT (Bidirectional Encoder Representations from Transformers).
+
+---
 
 ### Katkılar ve Geri Bildirim
 
-Bu proje, geliştirilmeye açık ve katkılara açıktır. Eğer uygulamalara yeni fikirler eklemek veya mevcutları geliştirmek isterseniz lütfen katkıda bulunun. Ayrıca, her türlü geri bildirim ve sorularınızı issues sekmesinden paylaşabilirsiniz.
+Bu proje, katkılara açıktır. Yeni fikirler veya geliştirmeler eklemek isterseniz lütfen pull request açın. Her türlü geri bildirim ve sorularınızı issues sekmesinden paylaşabilirsiniz.
 
+---
 
-Bu proje, finansal analiz ve veri bilimi konularına ilgi duyanlar için öğrenme ve uygulama fırsatları sunmayı hedeflemektedir. Umarım beğenir ve faydalı bulursunuz!
-
-Yazar: Serkan Polat
-
-![cfcf8c86a569d30b5dae709551634a5b](https://github.com/serkannpolatt/DATA-SCIENCE-FOR-FINANCE/assets/92849974/a54d4fbf-986e-4517-8769-f0ca08814a8c)
-
+### Yazar
+Serkan Polat
