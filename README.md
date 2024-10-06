@@ -254,7 +254,7 @@ Dağıtım sonrasında, nihai adım sonuçların paydaşlara sunulmasıdır. Bu,
 
 ---
 
-### Bu Reposudaki Uygulamalar
+### Bu Repodaki Uygulamalar
 
 Bu depoda, finansal analiz alanındaki çeşitli yönlere odaklanan aşağıdaki projeler bulunmaktadır:
 
