@@ -17,8 +17,6 @@ This repository aims to provide practical examples for using data science in fin
 
 ### Project Structure
 
-### Project Structure (Detailed)
-
 ---
 
 ### 1. Problem Definition
@@ -140,14 +138,11 @@ The repository contains the following projects, each focusing on different aspec
 
 ---
 
-### Contributions and Feedback
-
-This project is open to contributions. If you have new ideas or improvements, feel free to open a pull request. Any feedback or questions can be shared via the issues section.
+### Author
+Serkan Polat
 
 ---
 
-### Author
-Serkan Polat
 
 ## Türkçe
 ## Veri Bilimi için Finans
@@ -169,123 +164,134 @@ Bu depo, veri biliminin finansal alanlarda nasıl kullanılacağını gösteren 
 ### Proje Yapısı
 
 ---
+
 ### 1. Giriş
 
-Finansal analiz projeleri, bir organizasyonun finansal sağlığını ve performansını değerlendirmek için kritik öneme sahiptir. Veri bilimi ve makine öğrenimi teknikleri, geçmiş verilere dayalı olarak gelecekteki eğilimleri tahmin etmek ve içgörüler sağlamak için kullanılır. Bu belgede, finansal analiz projelerinde genel süreçler ve iyi uygulamalar ele alınmaktadır.
+Finansal analiz projeleri, bir organizasyonun finansal sağlığını ve performansını değerlendirmek için kritik öneme sahiptir. Veri bilimi ve makine öğrenimi teknikleri, geçmiş verilere dayalı olarak gelecekteki eğilimleri tahmin etmek ve içgörüler sağlamak için kullanılır. Bu depo, finansal verileri analiz etmek ve modellemek için çeşitli projeleri içermektedir.
 
 ---
 
-### 2. Problem Tanımlama
+### 2. Sorun Tanımı
 
-Bir finansal analiz projesinin ilk adımı, analizin amacını belirlemektir. Bu aşamada, hedef kitle, hangi verilerin kullanılacağı ve hangi finansal göstergelerin analiz edileceği gibi sorulara cevap bulmak önemlidir. Problem tanımlandıktan sonra, verilerin nasıl toplanacağına ve işleneceğine dair bir yol haritası oluşturulur.
+Herhangi bir finansal analiz projesinde, ilk ve en önemli adım, çözülmesi gereken sorunun veya araştırma sorusunun net bir şekilde tanımlanmasıdır. Örneğin, sorun "Makine öğrenimi teknikleri kullanarak hisse fiyat hareketlerini nasıl tahmin edebiliriz?" olabilir. Hedef açık bir şekilde ana hedefler ile tanımlanmalı, tahmin doğruluğunu artırmak veya riski en aza indirmek gibi temel hedefler belirtilmelidir. Ayrıca, yatırımcılar, finansal analistler veya varlık yöneticileri gibi hedef paydaşlar belirlenmelidir, çünkü bu kişiler projenin yönünü şekillendirecektir.
 
 **Detaylar:**
-- **Hedef Kitle:** Analizden faydalanacak gruplar (yönetim, yatırımcılar vb.).
-- **Finansal Göstergeler:** Gelir, kar marjı, borç/özkaynak oranı.
+- **Hedef:** Projenin tahmin, sınıflandırma (örneğin, boğa veya ayı piyasalarının belirlenmesi) veya desen tanıma (örneğin, eğilimlerin tanınması) için mi tasarlandığını tanımlayın.
+- **Paydaşlar:** Yatırımcılar, portföy yöneticileri, risk analistleri vb.
+- **Sonuçlar:** Karar verme süreçlerinin iyileştirilmesi, daha iyi risk yönetimi veya geliştirilmiş piyasa içgörüleri.
 
 ---
 
 ### 3. Veri Toplama
 
-Veri toplama aşaması, belirlenen problem tanımına göre gerçekleştirilir. Veri kaynakları arasında finansal raporlar, piyasa verileri, ekonomik göstergeler ve sosyal medya gibi farklı veri setleri bulunabilir. Verilerin toplanması, finansal analizin doğruluğunu etkileyen önemli bir adımdır.
+Veri toplama, tanımlanan sorunu ele almak için gerekli finansal verilerin toplanmasını içerir. Bu veriler, Yahoo Finance, Alpha Vantage veya IEX Cloud gibi API'lerden veya BeautifulSoup ve Selenium gibi araçlarla web taraması yapılarak toplanabilir. Toplanan veri türleri arasında hisse fiyatları, tarihsel getiri, piyasa endeksleri, ekonomik göstergeler ve ticaret hacmi veya volatilite gibi diğer finansal metrikler yer alabilir.
 
 **Detaylar:**
-- **Veri Kaynakları:** Şirket finansal raporları, kamu verileri, sosyal medya verileri.
-- **Veri Toplama Araçları:** API'ler, web kazıyıcıları, manuel veri girişi.
+- **Kaynaklar:** API'ler (Yahoo Finance, Alpha Vantage, IEX Cloud) veya tarama (BeautifulSoup, Selenium).
+- **Veri Türleri:** Hisse fiyatları, tarihsel getiri, ticaret hacimleri, piyasa endeksleri, ekonomik göstergeler (örneğin, GSYİH, işsizlik oranı), volatilite.
 
 ---
 
-### 4. Veri Ön İşleme
+### 4. Veri Temizleme ve Ön İşleme
 
-Toplanan veriler, analiz için uygun hale getirilmelidir. Bu, eksik verilerin temizlenmesi, anormal değerlerin giderilmesi ve uygun formatta düzenlenmesi gibi işlemleri içerir. Ayrıca, özellik mühendisliği uygulayarak yeni değişkenler oluşturmak, modelin performansını artırabilir.
+Veri toplama işleminden sonra, bir sonraki adım veri temizleme ve ön işleme aşamasıdır. Bu, ham finansal verilerin genellikle eksik değerler, yinelenen kayıtlar ve tutarsızlıklar içermesi nedeniyle kritik öneme sahiptir. Bu süreç, eksik verilerin doldurulması, interpolasyon veya kaldırma yoluyla ele alınması, ölçek farklılıklarını ortadan kaldırmak için verilerin normalize edilmesi, kategorik verilerin one-hot kodlaması ile dönüştürülmesi ve alakasız veya yinelenen verilerin kaldırılmasını içerir.
 
 **Detaylar:**
-- **Veri Temizleme:** Eksik ve anormal verilerin kontrolü ve düzeltilmesi.
-- **Özellik Mühendisliği:** Yeni değişkenler oluşturma (örneğin, geçmiş gelir büyümesi, faiz oranları).
+- **Eksik Veriler:** Eksik değerler, doldurma yöntemleri (örneğin, doldurma, interpolasyon) kullanılarak ele alınır.
+- **Normalizasyon:** Sayısal özellikler, aynı ölçeğe getirilerek normalize edilir.
+- **Kategorik Veriler:** Kategorik değişkenler için one-hot kodlama veya etiketleme kullanın.
+- **Yinelenen Veriler:** Yinelenen girişleri ve alakasız verileri kaldırın.
 
 ---
 
-### 5. Model Seçimi ve Eğitim
+### 5. Özellik Mühendisliği
 
-Veriler ön işlendiğinde ve özellikler mühendislik uygulandığında, sonraki adım makine öğrenimi modelinin seçimi ve eğitilmesidir. Finansal tahmin için popüler modeller arasında Lineer Regresyon, Random Forest, Gradient Boosting Machines ve zaman serisi verileri için LSTM bulunmaktadır. Model seçimi, problemin karmaşıklığına ve mevcut verilere dayalı olarak yapılmalıdır. Model seçildikten sonra, aşırı uyumdan kaçınmak için eğitim veri setleri kullanılarak çapraz doğrulama ile eğitilir.
+Özellik mühendisliği, herhangi bir finansal modelde kritik bir süreçtir. Bu aşamada, ham verilerden yeni özellikler oluşturulur ve bu özelliklerin model performansını artırması hedeflenir. Örneğin, zaman serisi verileri hareketli ortalamalar, momentum göstergeleri veya volatilite ölçümleri gibi dönüşümlere tabi tutulabilir. Fiyat-kazanç oranları, piyasa duyarlılığı endeksleri veya makroekonomik değişkenler (enflasyon, faiz oranları) gibi alan uzmanlığına özgü özellikler de eklenebilir.
 
 **Detaylar:**
-- **Model Seçenekleri:** Lineer Regresyon, Random Forest, XGBoost, LSTM (zaman serisi için).
-- **Eğitim:** Performansı optimize etmek için çapraz doğrulama ve hiperparametre ayarlama (GridSearchCV).
+- **Türetilmiş Özellikler:** Hareketli ortalamalar, volatilite ölçümleri, momentum göstergeleri.
+- **Alan Uzmanlığına Özgü Özellikler:** Fiyat-kazanç oranları, piyasa duyarlılığı endeksleri, makroekonomik değişkenler (enflasyon, faiz oranları).
 
 ---
 
-### 6. Model Değerlendirme
+### 6. Model Seçimi ve Eğitimi
 
-Eğitim tamamlandıktan sonra, modelin performansı doğrulama veri setleri kullanılarak değerlendirilir. Finansal analizde yaygın olarak kullanılan metrikler arasında Ortalama Mutlak Hata (MAE), Ortalama Kare Hata (MSE) veya R-kare bulunur. Değerlendirme sonuçları, modelin doğruluğunu veya genelleme yeteneğini artırmak için parametrelerin ayarlanmasına yardımcı olur. Model, görülmemiş test verilerinde iyi performans gösteriyorsa, dağıtıma hazır kabul edilir.
+Veri ön işleme ve özellik mühendisliği tamamlandıktan sonra, bir sonraki adım makine öğrenimi modelinin seçimi ve eğitilmesidir. Finansal tahmin için popüler modeller arasında Doğrusal Regresyon, Rastgele Orman, Gradient Boosting Makineleri ve zaman serisi verileri için LSTM yer alır. Model seçimi, sorunun karmaşıklığına ve mevcut verilere dayalı olarak yapılmalıdır. Model seçildikten sonra, eğitim veri setleri ile eğitim yapılır ve aşırı uyumu önlemek için çapraz doğrulama uygulanır.
+
+**Detaylar:**
+- **Model Seçenekleri:** Doğrusal Regresyon, Rastgele Orman, XGBoost, LSTM (zaman serisi için).
+- **Eğitim:** Performansı optimize etmek için çapraz doğrulama ve hiperparametre ayarı (GridSearchCV) kullanılır.
+
+---
+
+### 7. Model Değerlendirmesi
+
+Eğitim işleminden sonra, modelin performansı doğrulama veri setleri kullanılarak değerlendirilir. Ortalama Mutlak Hata (MAE), Ortalama Kare Hata (MSE) veya R-kare gibi metrikler, finansal analizde yaygın olarak kullanılır. Değerlendirme sonuçları, modelin doğruluğunu veya genelleme yeteneğini artırmak için parametre ayarlamaya yardımcı olur. Model, görünmeyen test verileri üzerinde iyi performans gösteriyorsa, dağıtım için hazır kabul edilir.
 
 **Detaylar:**
 - **Metrikler:** MAE, MSE, RMSE, R-kare.
-- **Ayarlar:** Değerlendirme sonuçlarına dayanarak modelin ince ayarını yapın.
+- **Ayarlar:** Değerlendirme sonuçlarına göre modelin ince ayarını yapın.
 
 ---
 
-### 7. Model Dağıtımı
+### 8. Model Dağıtımı
 
-Model değerlendirildiğinde ve tatmin edici bir performans gösterdiğinde, sonraki adım dağıtımdır. Bu, modelin paydaşların tahmin veya içgörülere erişebileceği bir uygulama veya sisteme entegre edilmesini içerir. Dağıtım, proje gereksinimlerine bağlı olarak bulut platformlarında (AWS, Azure, Google Cloud) veya yerel sistemlerde yapılabilir. Modelin gerçek dünyada performansını izlemek kritik öneme sahiptir; çünkü yeni verilere dayalı olarak güncellemeler veya yeniden eğitim gerektirebilir.
+Model değerlendirildiğinde ve tatmin edici bir performans sergilediğinde, bir sonraki adım dağıtımdır. Bu, modelin paydaşların tahminlere veya içgörülere erişebileceği bir uygulama veya sisteme entegre edilmesini içerir. Dağıtım, projenin gereksinimlerine bağlı olarak bulut platformlarında (AWS, Azure, Google Cloud) veya yerinde sistemlerde yapılabilir. Gerçek dünya senaryosunda modelin performansını izlemek kritik öneme sahiptir, çünkü bu yeni verilere göre güncellemeler veya yeniden eğitim gerektirebilir.
 
 **Detaylar:**
-- **Dağıtım Platformları:** Bulut (AWS, Azure, Google Cloud) veya yerel sistemler.
+- **Dağıtım Platformları:** Bulut (AWS, Azure, Google Cloud) veya yerinde.
 - **İzleme:** Sürekli performans izleme, model güncellemeleri ve yeniden eğitim protokolleri.
 
 ---
 
-### 8. Sonuçların Sunumu ve Raporlama
+### 9. Sonuçların Sunumu ve Raporlama
 
-Dağıtımın ardından, son adım paydaşlara sonuçları sunmaktır. Bu, bulguları, tahminleri ve model performansını özetleyen görselleştirmeler, raporlar veya panolar oluşturmayı içerebilir. Sonuçların ve paydaşlar için anlamlarının açık bir şekilde iletilmesi, projenin başarısı için esastır.
+Dağıtım sonrasında, nihai adım sonuçların paydaşlara sunulmasıdır. Bu, bulguları, tahminleri ve model performansını özetleyen görselleştirmeler, raporlar veya panolar oluşturmayı içerebilir. Sonuçların ve paydaşlar için çıkarımların net bir şekilde iletilmesi, projenin başarısı için kritik öneme sahiptir.
 
 **Detaylar:**
-- **Sunum Araçları:** Panolar (Tableau, Power BI), raporlar (Jupyter Notebooks) ve görselleştirmeler (Matplotlib, Seaborn).
-- **İletişim:** Bulguları ve paydaşlar için anlamlarını net bir şekilde aktarın.
+- **Sunum Araçları:** Panolar (Tableau, Power BI), raporlar (Jupyter Notebooks), görselleştirmeler (Matplotlib, Seaborn).
+- **İletişim:** Bulguları ve paydaşlar için çıkarımları net bir şekilde ifade edin.
 
 ---
 
-### Bu Reponun Uygulamaları
+### Bu Reposudaki Uygulamalar
 
-Depoda yer alan projeler, finansal analizle ilgili farklı konulara odaklanmaktadır:
+Bu depoda, finansal analiz alanındaki çeşitli yönlere odaklanan aşağıdaki projeler bulunmaktadır:
 
 #### 1. Hisse Senedi Fiyat Analizi
-- **Amaç:** Hisse senedi fiyatları üzerinde zaman serisi analizi yapmak.
-- **Kullanılan Teknikler:** Tarihsel fiyatları çizdirme, getiri hesaplamaları, temel analiz.
-- **Kullanılan Modeller:** ARIMA, Üstel Düzeltme.
+- **Hedef:** Hisse fiyatlarının zaman serisi analizi.
+- **Kullanılan Teknikler:** Tarihsel fiyatların çizimi, getirilerin hesaplanması, temel analiz gerçekleştirilmesi.
+- **Uygulanan Modeller:** ARIMA, Üstel Düzgünleştirme.
 
-#### 2. Zaman Serisi Tahminleme
-- **Amaç:** Zaman serisi tahminleme modelleri ile gelecekteki hisse senedi fiyatlarını tahmin etmek.
+#### 2. Zaman Serisi Tahmini
+- **Hedef:** Zaman serisi tahmin modelleri kullanarak gelecekteki hisse fiyatlarını tahmin etmek.
 - **Kullanılan Teknikler:** Veri ayırma, zaman serisi için özellik mühendisliği.
-- **Kullanılan Modeller:** ARIMA, LSTM (Uzun Kısa Süreli Bellek ağları).
+- **Uygulanan Modeller:** ARIMA, LSTM (Uzun Kısa Süreli Bellek ağları).
 
 #### 3. Portföy Optimizasyonu
-- **Amaç:** Getiriyi maksimize edip riski minimize edecek optimal portföy ağırlıklarını bulmak.
+- **Hedef:** Bir portföyü optimize ederek getirileri maksimize etmek ve riski en aza indirmek.
 - **Kullanılan Teknikler:** Modern portföy teorisi, ortalama-varyans optimizasyonu.
-- **Kullanılan Modeller:** Etkin Sınır (Efficient Frontier), Monte Carlo Simülasyonu.
+- **Uygulanan Modeller:** Etkili Sınır, Monte Carlo Simülasyonu.
 
 #### 4. Risk Analizi
-- **Amaç:** Finansal risklerin ölçülmesi ve değerlendirilmesi.
-- **Kullanılan Teknikler:** Beta katsayısı hesaplamaları, Riske Maruz Değer (VaR) analizleri.
-- **Kullanılan Modeller:** GARCH (Genelleştirilmiş Otoregresif Koşullu Değişen Varyans), VaR modelleri.
+- **Hedef:** Finansal riskleri ölçmek ve değerlendirmek.
+- **Kullanılan Teknikler:** Beta katsayıları hesaplama, Değer-at-Risk (VaR) analizleri.
+- **Uygulanan Modeller:** GARCH (Genelleştirilmiş Otoregresif Koşullu Heteroskedastisite).
 
-#### 5. Teknik Göstergeler ve Stratejiler
-- **Amaç:** Teknik analiz göstergeleri kullanarak ticaret stratejileri oluşturma.
-- **Kullanılan Teknikler:** Bollinger Bantları, Göreceli Güç Endeksi (RSI) gibi teknik göstergelerin uygulanması.
-- **Kullanılan Modeller:** Kural tabanlı ticaret algoritmaları, Otomatik stratejiler için Pekiştirmeli Öğrenme.
-
-#### 6. Haber Analizi ve Etki Değerlendirme
-- **Amaç:** Finansal haberlerin piyasa hareketlerine etkisini değerlendirmek.
-- **Kullanılan Teknikler:** Duygu analizi, doğal dil işleme (NLP).
-- **Kullanılan Modeller:** VADER (Duygu Analizi), BERT (Bidirectional Encoder Representations from Transformers).
+#### 5. Duygu Analizi
+- **Hedef:** Sosyal medya ve haberlerden duygu analizi yaparak piyasa hareketlerini tahmin etmek.
+- **Kullanılan Teknikler:** Doğal Dil İşleme (NLP), kelime gömme.
+- **Uygulanan Modeller:** LSTM, Destek Vektör Makineleri (SVM).
 
 ---
 
-### Katkılar ve Geri Bildirim
+### Katkıda Bulunma
 
-Bu proje, katkılara açıktır. Yeni fikirler veya geliştirmeler eklemek isterseniz lütfen pull request açın. Her türlü geri bildirim ve sorularınızı issues sekmesinden paylaşabilirsiniz.
+Bu projeye katkıda bulunmak için lütfen mevcut sorunları kontrol edin veya yeni bir özellik önerin. Herhangi bir katkı, sorun çözme veya özellik geliştirme ile ilgili ise, lütfen konuyu açıklayan bir konu açın veya pull request yapın.
 
 ---
 
 ### Yazar
 Serkan Polat
+
+---
