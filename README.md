@@ -11,7 +11,6 @@ This repository aims to provide practical examples for using data science in fin
 
 - **Real-World Financial Applications:** Each project is designed around real-world financial problems, showcasing how data science can be leveraged to extract insights.
 - **Teaching Methodologies:** Each project demonstrates a structured approach to data science, from data collection to model deployment.
-- **Collaboration and Learning:** The repository encourages contributions from the community, offering a space for feedback and collaboration.
 
 ---
 
@@ -157,7 +156,6 @@ Bu depo, veri biliminin finansal alanlarda nasıl kullanılacağını gösteren 
 
 - **Gerçek Dünya Finansal Uygulamalar:** Her proje, finansal sorunlara yönelik veri bilimi çözümlerini gösterir ve içgörüler çıkarma sürecini sunar.
 - **Veri Bilimi Metodolojilerini Gösterme:** Projeler, veri toplama aşamasından model dağıtımına kadar veri bilimi sürecini kapsamlı şekilde ele alır.
-- **İşbirliği ve Öğrenmeyi Teşvik Etme:** Topluluğun katkıda bulunabileceği ve geri bildirim sağlayabileceği bir alan oluşturur.
 
 ---
 
