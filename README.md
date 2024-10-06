@@ -1,5 +1,5 @@
 ## English
-## Data Science for Finance
+## Finance Apps for Data Science
 
 This repository contains a collection of data science applications focused on financial analysis. The aim is to analyze financial data, create predictive models, and extract actionable insights using Python. The project showcases various applications of machine learning and deep learning models tailored to financial datasets.
 
@@ -145,7 +145,7 @@ Serkan Polat
 
 
 ## Türkçe
-## Veri Bilimi için Finans
+## Veri Bilimi için Finans Uygulamaları
 
 Bu depo, finansal analiz üzerine odaklanan veri bilimi uygulamalarını içermektedir. Amaç, finansal verileri analiz etmek, tahmin modelleri oluşturmak ve Python kullanarak uygulanabilir içgörüler elde etmektir. Proje, finansal veri setlerine uygun makine öğrenimi ve derin öğrenme modellerinin çeşitli uygulamalarını içermektedir.
 
